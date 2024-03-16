@@ -15,3 +15,4 @@ if "%GITBRANCH%" == "" (
     prompt $P$G 
 ) else (
     prompt $P $C$E[1;7;32;47m%GITBRANCH%$E[0m$F $G 
+)
